@@ -7,7 +7,7 @@ from colorama import Fore
 
 playAgain="s"
 plays=0
-whoPlays=2  #1 = CPU | #2 = Jogador
+whoPlays=2  #1 = CPU: The game will be against the machine | #2 = Jogador
 maxPlays=9
 winner=""
 old=[
