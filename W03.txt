@@ -20,8 +20,10 @@ Identity: It gives a unique name to an object and enables one object to interact
 
  
 What is a class?
- a class is just a template for something. It only becomes
-useful when an instance is created and assigned to a variable in your program.
+a class is just a template for something. It only becomes
+useful when an instance is created and assigned to a variable in your program.  
+user-defined prototype for an object that defines a set of attributes that characterize any object of the class. 
+The attributes are data members (class variables and instance variables) and methods, accessed via dot notation.
 
 What is a method?
 A method is a function that “belongs to” an object. 
@@ -40,7 +42,9 @@ getattr() This function is used to access the attribute of object.
 
 What is an instance?
 
-An instance is the realization of attributes and methods in the computer's memory. an instance is a copy of the class with actual values.
+An instance is the realization of attributes and methods in the computer's memory. an instance is a copy of the class with actual values. 
+
+An individual object of a certain class. An object obj that belongs to a class Circle, for example, is an instance of the class Circle.
 
 What is the syntax for defining a class?
 Class creates a user-defined data structure, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A class is like a blueprint for an object.
@@ -63,9 +67,44 @@ class ClassName:
 
 What is the syntax for defining a constructor?
 
+_init__ method
+The __init__ method is similar to constructors in C++ and Java. Constructors are used to initializing the object’s state.
+ Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. 
+ It runs as soon as an object of a class is instantiated. 
+The method is useful to do any initialization you want to do with your object.
+
 What is the syntax for defining a method?
 
+# A Sample class with init method
+class Person:
+
+	# init method or constructor
+	def __init__(self, name):
+		self.name = name
+
+	# Sample Method
+	def say_hi(self):
+		print('Hello, my name is', self.name)
+
+p = Person('Nikhil')
+p.say_hi()
+
+
 What is the syntax for defining an attribute?
+
+Attributes can be defined/set even less formally, using a simple assignment syntax:
+
+>>> hasattr(MyGuy, "grape")  # MyGuy.grape is not defined
+False
+
+# set the attribute `grape` to `MyGuy`
+>>> MyGuy.grape = "purple"  # define and set the attribute 'grape'
+>>> MyGuy.grape
+'purple'
+
+>>> MyGuy.x = -1  # set the attribute 'x' with a new value
+>>> MyGuy.x
+-1
 
 What is the syntax for creating an instance of a class?
 
