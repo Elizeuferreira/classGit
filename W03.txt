@@ -11,18 +11,55 @@ real or imagined, that has a specific responsibility within our program.
 What three elements does an object have?
 
 Objects have state and behavior that allow them fulfill their responsibility.
+
+An object consists of : 
+
+State: It is represented by the attributes of an object. It also reflects the properties of an object.
+Behavior: It is represented by the methods of an object. It also reflects the response of an object to other objects.
+Identity: It gives a unique name to an object and enables one object to interact with other objects.
+
  
 What is a class?
+ a class is just a template for something. It only becomes
+useful when an instance is created and assigned to a variable in your program.
 
 What is a method?
+A method is a function that “belongs to” an object. 
+(In Python, the term method is not unique to class instances: other object types can have methods as well. 
+For example, list objects have methods called append, insert, remove, sort, and so on.
 
 What is a constructor?
+is the name of the class followed by parentheses. 
+Some programming languages, like Java, C# and others, require the "new" keyword when calling a constructor.
 
 What is an attribute?
+Attributes of a class are function objects that define corresponding methods of its instances. 
+They are used to implement access controls of the classes. 
+Attributes of a class can also be accessed using the following built-in methods and functions : 
+getattr() This function is used to access the attribute of object.
 
 What is an instance?
 
+An instance is the realization of attributes and methods in the computer's memory. an instance is a copy of the class with actual values.
+
 What is the syntax for defining a class?
+Class creates a user-defined data structure, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A class is like a blueprint for an object.
+
+Some points on Python class:  
+
+Classes are created by keyword class.
+Attributes are the variables that belong to a class.
+Attributes are always public and can be accessed using the dot (.) operator. Eg.: Myclass.Myattribute
+Class Definition Syntax:
+
+Class Definition Syntax:
+
+class ClassName:
+    # Statement-1
+    .
+    .
+    .
+    # Statement-N
 
 What is the syntax for defining a constructor?
 
