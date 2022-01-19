@@ -1,16 +1,39 @@
+Ask yourself the following questions. If you can't answer all of them, review the study materials and your notes until you can.
+
 What is the definition of abstraction?
+Abstraction is the process of turning complex ideas into simple ones. 
+It is removing characteristics from something so that only the essential ones remain.
+
 What is an object?
+An object is a conceptual model for a category of things, 
+real or imagined, that has a specific responsibility within our program.
+
 What three elements does an object have?
+
+Objects have state and behavior that allow them fulfill their responsibility.
+ 
 What is a class?
+
 What is a method?
+
 What is a constructor?
+
 What is an attribute?
+
 What is an instance?
+
 What is the syntax for defining a class?
+
 What is the syntax for defining a constructor?
+
 What is the syntax for defining a method?
+
 What is the syntax for defining an attribute?
+
 What is the syntax for creating an instance of a class?
+
 What is the syntax for accessing an attribute?
+
 What is the syntax for invoking a method?
+
 What is alternative meaning for the word object?
