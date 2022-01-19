@@ -1,0 +1,16 @@
+What is the definition of abstraction?
+What is an object?
+What three elements does an object have?
+What is a class?
+What is a method?
+What is a constructor?
+What is an attribute?
+What is an instance?
+What is the syntax for defining a class?
+What is the syntax for defining a constructor?
+What is the syntax for defining a method?
+What is the syntax for defining an attribute?
+What is the syntax for creating an instance of a class?
+What is the syntax for accessing an attribute?
+What is the syntax for invoking a method?
+What is alternative meaning for the word object?
