@@ -8,43 +8,75 @@ Tic-Tac-Toe is a game in which two players seek in alternate turns to complete a
 Rules
 Tic-Tac-Toe is played according to the following rules.
 
-The game is played on a grid that is three squares by three squares.
-Player one uses x's. Player two uses o's.
-Players take turns putting their marks in empty squares.
-The first player to get three of their marks in a row (vertically, horizontally, or diagonally) is the winner.
-If all nine squares are full and neither player has three in a row, the game ends in a draw.
-Interface
-1|2|3
--+-+-
-4|5|6
--+-+-
-7|8|9
+1. Played choose the row and column to insert the X symbol and the computer will make the next move automatically in 0 to make the defense.
 
-x's turn to choose a square (1-9): 2
+1   2  3  
+1:    |   |   
+   -----------
+2:    |   |   
+   -----------
+3:    |   |   
+plays: 0      
+line...:  
 
-1|x|3
--+-+-
-4|5|6
--+-+-
-7|8|9
+    1   2  3  
+1:    |   |   
+   -----------
+2:    |   |   
+   -----------
+3:    |   |   
+plays: 0      
+line...: 1    
 
-o's turn to choose a square (1-9): 5
+  1   2  3  
+1:  O |   | X 
+   -----------
+2:    |   |   
+   -----------
+3:    |   |   
+plays: 2      
+line...:    
 
-1|x|3
--+-+-
-4|o|6
--+-+-
-7|8|9
+    1   2  3  
+1:  O | X | X 
+   -----------
+2:    |   | O 
+   -----------
+3:    |   |   
+plays: 4      
+line...: 
 
-x's turn to choose a square (1-9): _
+    1   2  3  
+1:  O | X | X 
+   -----------
+2:    | X | O 
+   -----------
+3:    | O |   
+plays: 6      
+line...:      
 
-...
+In each move, the machine seeks to defend by entering 0.
 
-x|x|x
--+-+-
-4|o|6
--+-+-
-7|8|o
+When the victory happens it will be below:
 
-Good game. Thanks for playing!
-> 
+ 1   2  3  
+1:  O | X | X 
+   -----------
+2:    | X | O 
+   -----------
+3:    | O |   
+plays: 6      
+line...: 3    
+collum..: 1
+GOOD GAME. Thanks for playing!
+You won
+PLAY AGAIN? [s/n]: 
+
+After the win or loss the player will be invited to play again or to end the game.
+
+ 
+
+
+
+
+
